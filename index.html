@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DowneyShop</title>
+    <link href="style.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navabar">
+                <div class="logo">
+                    <img src="images/logo.png" width="125px">
+                </div>
+                <nav>
+                    <ul id="MenuItems">
+                        <li><a href="">Home</a></li>
+                        <li><a href="">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="">Contact</a></li>
+                        <li><a href="">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="images/cart.png" width="30px" height="30px">
+                <img src="images/menu.png" class="menu-icon" onclick="menutoggle()">
+            </div>
+            <div class="paragraph">
+                <div class="para-1">
+                    <h1>Give Your Workout <br> A New Style!</h1>
+                    <p>Success isn't always about greatness.<br> It's about consistency . consistent hard gains success. <br>Greatness willcome!</p>
+                    <a href="" class="button">Explore Now &#8594</a>
+                </div>
+                <div class="para-2">
+                    <img src="images/image1.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-----------------------categories section-------------------------------->
+    <div class="categories">
+        <div class="small-container">
+            <div class="paragraph">
+                <div class="para-3">
+                    <img src="images/category1.png">
+                </div>
+                <div class="para-3">
+                    <img src="images/category2.png">
+                </div>
+                <div class="para-3">
+                    <img src="images/category3.png">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-----------------------products section row1-------------------------------->
+    <div class="small-container">
+        <h2 class="title">Featured Products</h2>
+        <div class="paragraph">
+            <div class="para-4">
+                <img src="images/product-1.jpg">
+                <h4>Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs499.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/product-2.jpg">
+                <h4>Casual Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs899.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/product-3.jpg">
+                <h4>Pants&Joggers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs1299.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/product-4.jpg">
+                <h4>T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs599.00</p>
+            </div>
+        </div>
+        <!---------- Latest products row 1------------>
+        <h2 class="title">Trending Indian Wear</h2>
+        <div class="paragraph">
+            <div class="para-4">
+                <img src="images/indianwear-1.png">
+                <h4>Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs499.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/indianwear-2.png">
+                <h4>Casual Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs899.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/indianwear-3.png">
+                <h4>Pants&Joggers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs1299.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/indianwear-4.png">
+                <h4>T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs599.00</p>
+            </div>
+        </div>
+        <!---------- Latest products row 2------------>
+        <h2 class="title">Sports Wear</h2>
+        <div class="paragraph">
+            <div class="para-4">
+                <img src="images/sportswear-1.png">
+                <h4>Red T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs499.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/sportswear-2.png">
+                <h4>Casual Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs899.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/sportswear-3.png">
+                <h4>Pants&Joggers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs1299.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/sportswear-4.png">
+                <h4>T-Shirt</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs599.00</p>
+            </div>
+        </div>
+        <!---------- Latest products row3------------>
+        <h2 class="title">Latest Products</h2>
+        <div class="paragraph">
+            <div class="para-4">
+                <img src="images/product-9.jpg">
+                <h4>Watch</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs499.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/product-10.jpg">
+                <h4>Casual Shoes</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs899.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/product-11.jpg">
+                <h4>Pants&Joggers</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs1299.00</p>
+            </div>
+            <div class="para-4">
+                <img src="images/product-12.jpg">
+                <h4>Pants</h4>
+                <div class="rating">
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star"></i>
+                    <i class="fa fa-star-half-o"></i>
+                    <i class="fa fa-star-o"></i>
+                </div>
+                <p>Rs599.00</p>
+            </div>
+        </div>
+    </div>
+
+    <!--------------------Offer-------------------->
+    <div class="offer">
+        <div class="small-container">
+            <div class="paragraph">
+                <div class="para-2">
+                    <img src="images/exclusive.png" class="offer-img">
+                </div>
+                <div class="para-2">
+                    <p>Exclusively Available on DowneyShop</p>
+                    <h1>Smart Band 4</h1>
+                    <small>The Mi Smart Band 4 features a 39.9% larger Mi Band 3 AMOLED colour 
+                    full-touch display with adjustable brightness,
+                    so everything is clear as can be.
+                    </small>
+                    <a href="" class="button">Buy Now &#8594;</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---------------------test------------------->
+    <div class="test">
+        <div class="small-container">
+            <div class="paragraph">
+                <div class="para-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and type testing industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-1.png"> 
+                    <h3>Sean Parker</h3>
+                </div>
+                <div class="para-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and type testing industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div> 
+                    <img src="images/user-2.png">
+                    <h3>Mike Smith</h3>
+                </div>
+                <div class="para-3">
+                    <i class="fa fa-quote-left"></i>
+                    <p>Lorem Ipsum is simply dummy text of the printing and type testing industry. Lorem Ipsum has been the industry's standard dummy text ever</p>
+                    <div class="rating">
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                    <img src="images/user-1.png">
+                    <h3>Mabel Joe</h3>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--------brands------------>
+    <div class="brands">
+        <div class="small-container">
+            <div class="paragraph">
+                <div class="para-5">
+                    <img src="images/redmi-logo.png">
+                </div>
+                <div class="para-5">
+                    <img src="images/jio-logo.png">
+                </div>
+                <div class="para-5">
+                    <img src="images/paytm-logo.png">
+                </div>
+                <div class="para-5">
+                    <img src="images/gpay-logo.jpg">
+                </div>
+                <div class="para-5">
+                    <img src="images/phonepe-logo.png">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!----------------footer-------------->
+    <div class="footer">
+        <div class="container">
+            <div class="paragraph">
+                <div class="footer-para1">
+                    <h3>Downdoad our App</h3>
+                    <p>Download App for Android and ios Mobile App</p>
+                    <div class="app-logo">
+                        <img src="images/play-store.png">
+                        <img src="images/app-store.png">
+                    </div>
+                </div>
+                <div class="footer-para2">
+                    <img src="images/logo-white.png">
+                    <p>Our Purpose Is To Sustainable Make The Pleasure And Benefits of Sports Accessible To the Many</p>
+                </div>
+                <div class="footer-para3">
+                    <h3>Useful Links</h3>
+                    <ul>
+                        <li><a href="https://github.com/vinobe21/Laravel-E-commerce-">Laravel E-commerce website</a></li>
+                    </ul>
+                </div>
+                <div class="footer-para4">
+                    <h3>Follow us</h3>
+                    <ul>
+                        <li><a href="https://github.com/vinobe21"><i class="fa fa-github"></i> Github</a></li>
+                        <li><a href="https://twitter.com/VinothK95277500"><i class="fa fa-twitter"></i> Twitter</a></li>
+                        <li><a href="https://www.instagram.com/vinoth_be/"><i class="fa fa-instagram"></i> Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <p class="copyright">Copyright 2020-DowneyShop</p>
+        </div>
+    </div>
+    <script>
+        var MenuItems = document.getElementById("MenuItems");
+        MenuItems.style.maxHeight = "0px";
+
+        function menutoggle() {
+            if (MenuItems.style.maxHeight == "0px") {
+                MenuItems.style.maxHeight = "200px"
+            } else {
+                MenuItems.style.maxHeight = "0px"
+            }
+        }
+    </script>
+</body>
+
+</html>
